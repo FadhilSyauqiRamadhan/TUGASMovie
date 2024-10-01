@@ -1,6 +1,6 @@
 package com.fadhilsyauqi.buahdanbuku.model
 
-data class ModelBuku(
+data class  ModelBuku(
     val judul : String,
     val penerbit : String
 )
