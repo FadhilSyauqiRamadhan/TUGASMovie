@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="List dan Buku"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200sp"
+            android:text="Buku" />
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List" />
+
+        <Button
+            android:id="@+id/btnBuah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buah" />
+
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

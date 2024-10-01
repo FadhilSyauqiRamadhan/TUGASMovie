@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListDanBuku</string>
+    <string name="st_anggur">Anggur merupakan salah satu tanaman yang hidup pada daerah dataran rendah.</string>
+
+    Anggur merupakan buah yang diolah dari telur buah berupa perdu merambat yang termasuk ke dalam
+    keluarga Vitaceae.[1] Buah ini biasanya digunakan untuk membuat jus anggur, jelly, minuman
+    anggur, minyak biji anggur dan kismis, atau dimakan langsung.[1] Buah ini juga dikenal karena
+    mengandung banyak senyawa polifenol dan resveratol yang berperan aktif dalam berbagai
+    metabolisme tubuh, serta mampu mencegah terbentuknya sel kanker dan berbagai penyakit
+    lainnya.[2] Aktivitas ini juga terkait dengan adanya senyawa metabolit sekunder di dalam buah
+    anggur yang berperan sebagai senyawa antioksidan yang mampu menangkal radikal bebas.
+    <string name="st_jeruk">Jeruk merupakan salah satu buah yang sangat populer di seluruh dunia. Buah ini memiliki rasa yang segar dan manis, serta kandungan vitamin C yang tinggi. Jeruk juga memiliki sejarah yang panjang dan telah menjadi bagian penting dari kehidupan manusia sejak ribuan tahun yang lalu.</string>
+    <string name="st_apel">Apel merupakan salah satu jenis buah yang sangat populer di seluruh dunia. Buah ini memiliki rasa yang manis dan segar, serta tekstur yang renyah. Selain itu, apel juga memiliki banyak manfaat bagi kesehatan tubuh manusia.</string>
+    <string name="st_pear">Buah pear merupakan sejenis buah yang berasal dari genus pyrus dan mempunyai kandungan air yang tinggi. </string>
+
+</resources>
