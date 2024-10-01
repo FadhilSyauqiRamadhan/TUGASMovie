@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.fadhilsyauqi.buahdanbuku.adapter.MovieAdapter
 import com.fadhilsyauqi.buahdanbuku.model.Mocklist1
 import com.fadhilsyauqi.buahdanbuku.model.ModelMovie
+import com.fadhilsyauqi.buahdanbuku.model.Movielist
 
 class RecycleMovieActivity : AppCompatActivity() {
     private lateinit var rv_movie : RecyclerView
@@ -22,7 +23,7 @@ class RecycleMovieActivity : AppCompatActivity() {
         rv_movie = findViewById(R.id.rv_movie)
 
         rv_movie.layoutManager = GridLayoutManager(this, 2)
-        val adapter = MovieAdapter(Mocklist1.getmodel()as ArrayList<ModelMovie> , this)
+        val adapter = MovieAdapter(Movielist.getModel() as ArrayList<ModelMovie> , this)
         rv_movie.adapter = adapter
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
